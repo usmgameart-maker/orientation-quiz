@@ -1,0 +1,17 @@
+﻿/* Настройки расстановки. left — вправо, bottom — вверх; height — рост относительно сцены.
+   Меняйте правило конкретной сцены, чтобы не сдвигать героев в остальных местах. */
+.cast-school{left:29%;bottom:1%;height:38%}
+/* До перехода команда стоит на ближнем тротуаре, после него — внутри сквера. */
+.cast-entrance{left:13%;bottom:0%;height:34%}
+.cast-fork{left:28%;bottom:1%;height:35%}
+.cast-detour{left:29%;bottom:0%;height:34%}
+.cast-where{left:29%;bottom:0%;height:35%}
+.cast-pavilion{left:32%;bottom:0%;height:34%}
+.home-cast{left:30%;bottom:0%;height:40%}
+.character.mira .talk-bubble{left:65%;top:0%}
+.character.lev .talk-bubble{left:66%;top:0%}
+.character.anna .talk-bubble{left:69%;top:1%}
+
+/* Табличка пункта помощи справа от сотрудника, возле плеча.
+   top — вниз, left — вправо относительно рамки сотрудника. */
+.scene-where .help-desk{--staff-sign-top:20%;--staff-sign-left:85%}

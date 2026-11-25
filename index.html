@@ -1,0 +1,17 @@
+﻿<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#176b65"><meta name="description" content="План с поправкой — иллюстрированная игра Академии безопасности об ориентировании для 2 класса.">
+<title>Академия безопасности · Безопасное ориентирование</title>
+<link rel="stylesheet" href="files/style.css"><link rel="stylesheet" href="files/positions.css"><link rel="stylesheet" href="files/safety-cards.css">
+<script defer src="files/elements.js"></script><script defer src="files/data.js"></script><script defer src="files/engine.js"></script><script defer src="files/safety-cards.js"></script><script defer src="files/app.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">К содержимому</a>
+<header class="topbar"><button class="brand" data-action="home" aria-label="Академия безопасности — на главную"><span class="brand-symbol" aria-hidden="true">А</span><span><strong>АКАДЕМИЯ БЕЗОПАСНОСТИ</strong><small>Безопасное ориентирование</small></span></button><nav aria-label="Основная навигация"><button class="nav-home" data-action="home" aria-label="На главную"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 10 9-7 9 7v11h-6v-7H9v7H3V10"/></svg><span>На главную</span></button><button data-action="map">Маршрут</button><button data-action="notebook">Блокнот <span id="note-count" class="counter">0/6</span></button><button class="icon-button" data-action="about" aria-label="Об игре">?</button></nav></header>
+<main id="main" tabindex="-1"></main>
+<footer class="footer"><span>Рассмотри. Проверь. Найди путь.</span><span id="save-status" role="status"></span></footer>
+<dialog id="dialog" aria-labelledby="dialog-title"><div id="dialog-content"></div><button class="dialog-close" data-action="close-dialog" aria-label="Закрыть окно">×</button></dialog>
+<noscript>Для работы игры включите JavaScript в браузере.</noscript>
+</body></html>

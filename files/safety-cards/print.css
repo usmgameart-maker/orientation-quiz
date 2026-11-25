@@ -1,0 +1,6 @@
+/* Только для отдельной страницы печати карточек. Не подключать к игре. */
+.print-sheet{padding:0;display:block;flex:none}.print-svg-card{margin:0 0 24px}.print-svg-card>img{display:block;width:100%;height:auto}
+@page{size:A4 portrait;margin:12mm}
+@media print{
+ html,body.memory-print-page{background:white!important;margin:0;padding:0;display:block;min-height:0}.print-toolbar{display:none!important}.print-sheet{max-width:none;width:148mm;margin:0 auto;padding:0;display:block;flex:none}.print-svg-card{width:148mm;height:210mm;margin:0;break-inside:avoid;break-after:page;page-break-after:always;print-color-adjust:exact;-webkit-print-color-adjust:exact}.print-svg-card:last-child{break-after:auto;page-break-after:auto}.print-svg-card>img{display:block;width:148mm;height:210mm}
+}
